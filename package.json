@@ -34,7 +34,7 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js"
+      "dist/nodes/JadlogNode/JadlogNode.node.js"
     ]
   },
   "devDependencies": {
