@@ -72,7 +72,7 @@ export class JadlogNode implements INodeType {
 				const destination = row.find('td:nth-of-type(4) span').text();
 				const document = row.find('td:nth-of-type(5) span').text();
 
-				const [day, month, year, hour, minute] = dateStr.split(/\/|\s|:/).map(Number);
+				const [day, month, year, hour, minute] = dateStr.split(/\/|\s+|:/).map(Number);
 
 				const date = new Date(year, month - 1, day, hour, minute);
 
