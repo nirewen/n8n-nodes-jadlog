@@ -24,7 +24,7 @@ export class JadlogNode implements INodeType {
 		icon: 'file:Jadlog.svg',
 		group: ['transform'],
 		version: 1,
-		subtitle: '={{$paremeter["trackNumber"]}}',
+		subtitle: '={{$parameter["trackNumber"]}}',
 		description: 'Busca informações sobre uma remessa da Jadlog',
 		defaults: {
 			name: 'Jadlog',
